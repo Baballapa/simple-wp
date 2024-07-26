@@ -9,16 +9,20 @@ $pageTitle = "Contact Page";
 
 <section id="contact-form">
     <form action="submit.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Please First Name">
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please enter Last Name">
 
-        <button type="submit">Submit</button>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Please enter Email">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="How can I help you" style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
     </form>
 </section>
 
