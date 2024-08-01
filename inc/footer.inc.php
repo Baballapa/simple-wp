@@ -1,4 +1,3 @@
-    <link rel="stylesheet" href="css/styles.css">
     <div class="footer-container border mt-auto">
         <div class="row text-center">
             <footer class="col-12">
